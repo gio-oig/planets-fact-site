@@ -6,7 +6,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter basename={window.location.origin}>
+    <BrowserRouter basename="/planets-fact-site">
       <App />
     </BrowserRouter>
   </React.StrictMode>
